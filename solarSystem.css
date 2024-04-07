@@ -1,0 +1,189 @@
+body {
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.CDNNIPpu1ZAh3fLC8v8_KwHaEK&pid=Api&P=0&h=220");
+    background-size: 70% 70%;
+    background-color: black;
+}
+
+section {
+    height: 100%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    margin: 100px 100px;
+}
+
+.orbit {
+    border-radius: 50%;
+    margin: auto auto;
+    border: 1px solid white;
+    position: relative;
+    animation: revolve 60s linear 0s infinite normal none;
+}
+
+.planets {
+    border-radius: 50%;
+    margin: -14px -14px;
+    border: 0px solid white;
+    height: 20px;
+    width: 20px;
+    /* background-image: url("https://tse3.mm.bing.net/th?id=OIP.7m8um6qrWTuZkg6MdYSbfwHaCU&pid=Api&P=0&h=220");
+    background-size: 100% 100%; */
+    /* background-position: center; */
+    /* background-color: rgb(53, 145, 145); */
+    position: absolute;
+    top: 2px;
+}
+
+@keyframes revolve {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#saturnring {
+    border-radius: 50%;
+    /* margin: -15px -15px; */
+    border: 2px solid palegoldenrod;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 2px;
+    transform: skewY(50deg);
+    /* skewY(60deg) */
+}
+
+/* #saturnring {
+    border-radius: 50%;
+    margin: -15px -15px;
+    border: 2px solid palegoldenrod;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    top: 2px;
+    transform: skewY(60deg);
+    skewY(60deg)
+} */
+
+#nine {
+    display: flex;
+    justify-content: center;
+    height: 660px;
+    width: 660px;
+}
+
+#eight {
+    display: flex;
+    justify-content: center;
+    height: 580px;
+    width: 580px;
+}
+
+#seven {
+    display: flex;
+    justify-content: center;
+    height: 500px;
+    width: 500px;
+}
+
+#six {
+    display: flex;
+    justify-content: center;
+    height: 420px;
+    width: 420px;
+}
+
+#five {
+    display: flex;
+    justify-content: center;
+    height: 340px;
+    width: 340px;
+}
+
+#four {
+    display: flex;
+    justify-content: center;
+    height: 260px;
+    width: 260px;
+}
+
+#three {
+    display: flex;
+    justify-content: center;
+    height: 180px;
+    width: 180px;
+}
+
+#two {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100px;
+}
+
+#one {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    width: 50px;
+    background-color: yellow;
+    box-shadow: 2px 2px 30px 4px orange;
+    border: 0px;
+}
+
+/* Planets */
+
+#Mercury {
+    background-color: #808080;
+    height: 18px;
+    width: 18px;
+}
+
+#Venus {
+    background-color: #ffd700;
+    height: 23px;
+    width: 23px;
+    /* box-shadow: 2px 2px 20px 4px #ffd700; */
+}
+
+#Earth {
+    background: linear-gradient(to right, #03c0f4, #008000);
+    height: 24px;
+    width: 24px;
+}
+
+#Mars {
+    background-color: #d73a35;
+    height: 20px;
+    width: 20px;
+    /* box-shadow: 2px 2px 1px 4px #d73a35; */
+
+}
+
+#Jupiter {
+    background: linear-gradient(to right, #FFA500, #8B4513);
+    height: 30px;
+    width: 30px;
+}
+
+#Saturn {
+    background: linear-gradient(to right, #FFFF00, #D2B48C);
+    height: 28px;
+    width: 28px;
+    opacity: 95%;
+}
+
+#Uranus {
+    background-color: #00a86b;
+    height: 26px;
+    width: 26px;
+}
+
+#Neptune {
+    background-color: #00008b;
+    height: 26px;
+    width: 26px;
+}
